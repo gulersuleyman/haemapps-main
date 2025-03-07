@@ -1,0 +1,105 @@
+{
+  "project_info": {
+    "project_number": "79234869067",
+    "project_id": "haemdata",
+    "storage_bucket": "haemdata.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:79234869067:android:afd8dbd4a8d2d589696ace",
+        "android_client_info": {
+          "package_name": "haem.app.free"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWsOBa_5P2cqdEPUH5CWTrx-1wlzPtDV0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:79234869067:android:be97e8b20018bc8c696ace",
+        "android_client_info": {
+          "package_name": "haem.app.partner"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWsOBa_5P2cqdEPUH5CWTrx-1wlzPtDV0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:79234869067:android:57df9926105abca1696ace",
+        "android_client_info": {
+          "package_name": "haem.partner.free"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWsOBa_5P2cqdEPUH5CWTrx-1wlzPtDV0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:79234869067:android:979d7cd4ad5e5e27696ace",
+        "android_client_info": {
+          "package_name": "partner.app.free"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWsOBa_5P2cqdEPUH5CWTrx-1wlzPtDV0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:79234869067:android:33fbf7fd21870389696ace",
+        "android_client_info": {
+          "package_name": "user.app.free"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWsOBa_5P2cqdEPUH5CWTrx-1wlzPtDV0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

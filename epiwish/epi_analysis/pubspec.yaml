@@ -1,0 +1,9 @@
+name: epi_analysis
+version: 1.0.0
+description: Custom Lint rules for Epiwish
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dev_dependencies:
+  test: ^1.24.9

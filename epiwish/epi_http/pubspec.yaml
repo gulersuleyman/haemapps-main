@@ -1,0 +1,16 @@
+name: epi_http
+description: HTTP methods and models for Epiwish projects.
+version: 0.0.1
+# repository: https://github.com/my_org/my_repo
+
+environment:
+  sdk: ^3.3.0
+
+# Add regular dependencies here.
+dependencies:
+  # path: ^1.8.0
+
+dev_dependencies:
+  test: ^1.24.0
+  epi_analysis:
+      path: ../epi_analysis

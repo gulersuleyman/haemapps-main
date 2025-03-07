@@ -1,0 +1,19 @@
+name: epi_firebase_auth
+description: Custom Firebase Auth package for Epiwish
+version: 0.0.5
+publish_to: "none"
+# repository: ""
+
+environment:
+  sdk: ^3.3.0
+
+dependencies:
+  firebase_auth: ^5.3.0
+
+  epi_http:
+    path: ../epi_http
+
+dev_dependencies:
+  test: ^1.24.0
+  epi_analysis:
+    path: ../epi_analysis

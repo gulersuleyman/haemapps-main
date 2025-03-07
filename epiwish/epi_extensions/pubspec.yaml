@@ -1,0 +1,16 @@
+name: epi_extensions
+description: Custom extensions for Flutter and Dart
+version: 1.1.2
+publish_to: "none"
+
+environment:
+  sdk: ^3.3.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  test: ^1.24.0
+  epi_analysis:
+      path: ../epi_analysis

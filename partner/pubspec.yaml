@@ -1,0 +1,89 @@
+name: partner
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.1.8+11
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Core
+  go_router: ^14.2.7
+  flutter_bloc: ^8.1.6
+  equatable: ^2.0.5
+  get_storage: ^2.1.1
+  url_launcher: ^6.3.1
+
+  # Util
+  uuid: ^4.5.1
+
+  # Firebase
+  firebase_core: ^3.5.0
+  firebase_auth: ^5.3.0
+  cloud_firestore: ^5.4.2
+  firebase_analytics: ^11.3.3
+  firebase_storage: ^12.3.4
+
+  # Location
+  fl_location: ^4.1.0+1
+  geoflutterfire_plus: ^0.0.31
+  geolocator: ^13.0.1
+  geocoding: ^3.0.0
+
+  # UI
+  google_fonts: ^6.2.1
+  flutter_native_splash: ^2.4.1
+
+  # Native
+  image_picker: ^1.1.2
+
+  # Payments
+  adapty_flutter: ^2.10.3
+
+  # Apple
+  app_tracking_transparency: ^2.0.6
+
+  # Models
+  models:
+    path: ../models
+
+  # Epiwish
+  epi_http:
+    path: ../epiwish/epi_http
+  epi_extensions:
+    path: ../epiwish/epi_extensions
+  epi_firebase_auth:
+    path: ../epiwish/epi_firebase_auth
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  epi_analysis:
+    path: ../epiwish/epi_analysis
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  image_path: "assets/icon.png"
+  android: "launcher_icon"
+  min_sdk_android: 21
+  ios: true
+  remove_alpha_channel_ios: true
+  remove_alpha_ios: true
+  adaptive_icon_background: "#FF9100"
+  adaptive_icon_foreground: "assets/icon.png"
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - shorebird.yaml
+
+flutter_native_splash:
+  color: "#FF9100"
+  image: "assets/icon.png"
+  android_12:
+    color: "#FF9100"
+    image: "assets/icon.png"
